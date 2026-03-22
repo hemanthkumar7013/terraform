@@ -4,7 +4,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "example" {
-  bucket = "hemanth-s3_statelock"
+  bucket = "hemanth-s3-statelock"
 
   lifecycle {
     prevent_destroy = false
